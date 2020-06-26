@@ -21,7 +21,7 @@ class SessionsController extends Controller
             ]
         );
 
-        if (\Auth::attempt($credentails)) {
+        if (\Auth::attempt($credentails,$request->has('remember'))) {
             session()->flash('success', '欢迎回来');
 
             return redirect()->route('users.show', [\Auth::user()]);
