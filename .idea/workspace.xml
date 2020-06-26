@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f14c9d52-337f-4a74-b5db-52c301a94b41" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_ide_helper.php" beforeDir="false" afterPath="$PROJECT_DIR$/_ide_helper.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/auth.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/auth.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/factories/UserFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/factories/UserFactory.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -224,10 +220,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="616" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1593143717840" />
-    <state x="556" y="204" width="807" height="632" key="find.popup" timestamp="1593149410639">
+    <state x="556" y="204" width="807" height="632" key="find.popup" timestamp="1593152155255">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="556" y="204" width="807" height="632" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1593149410639" />
+    <state x="556" y="204" width="807" height="632" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1593152155255" />
     <state x="616" y="240" width="672" height="677" key="run.anything.popup" timestamp="1593148295914">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
