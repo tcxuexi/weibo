@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="f14c9d52-337f-4a74-b5db-52c301a94b41" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/_footer.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/_footer.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/_header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/_header.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/static_pages/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/static_pages/home.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -140,6 +139,7 @@
   <component name="RunAnythingCache">
     <option name="myCommands">
       <command value="artisan make:controller StaticPagesController" />
+      <command value="artisan make:controller UsersController" />
     </option>
   </component>
   <component name="RunManager">
@@ -160,7 +160,7 @@
       <updated>1593083104039</updated>
       <workItem from="1593083106991" duration="3305000" />
       <workItem from="1593086781090" duration="7553000" />
-      <workItem from="1593135630719" duration="2154000" />
+      <workItem from="1593135630719" duration="2662000" />
     </task>
     <servers />
   </component>
@@ -180,34 +180,34 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="797" y="404" key="FrameworkEditDialogDimensionKey/0.0.1920.1040@0.0.1920.1040" timestamp="1593086247690" />
-    <state width="1877" height="261" key="GridCell.Tab.0.bottom" timestamp="1593103976945">
+    <state width="1877" height="261" key="GridCell.Tab.0.bottom" timestamp="1593138584017">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="261" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1593103976945" />
-    <state width="1877" height="261" key="GridCell.Tab.0.center" timestamp="1593103976944">
+    <state width="1877" height="261" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1593138584017" />
+    <state width="1877" height="261" key="GridCell.Tab.0.center" timestamp="1593138584017">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="261" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1593103976944" />
-    <state width="1877" height="261" key="GridCell.Tab.0.left" timestamp="1593103976944">
+    <state width="1877" height="261" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1593138584017" />
+    <state width="1877" height="261" key="GridCell.Tab.0.left" timestamp="1593138584016">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="261" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1593103976944" />
-    <state width="1877" height="261" key="GridCell.Tab.0.right" timestamp="1593103976945">
+    <state width="1877" height="261" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1593138584016" />
+    <state width="1877" height="261" key="GridCell.Tab.0.right" timestamp="1593138584017">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="261" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1593103976945" />
-    <state x="776" y="439" key="NewPhpFileDialog" timestamp="1593137784333">
+    <state width="1877" height="261" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1593138584017" />
+    <state x="776" y="439" key="NewPhpFileDialog" timestamp="1593138608777">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="776" y="439" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1593137784333" />
+    <state x="776" y="439" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1593138608777" />
     <state x="461" y="162" key="SettingsEditor" timestamp="1593086258441">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1593086258441" />
-    <state width="498" height="446" key="SwitcherDM" timestamp="1593138297836">
+    <state width="498" height="446" key="SwitcherDM" timestamp="1593138723152">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="498" height="446" key="SwitcherDM/0.0.1920.1040@0.0.1920.1040" timestamp="1593138297836" />
+    <state width="498" height="446" key="SwitcherDM/0.0.1920.1040@0.0.1920.1040" timestamp="1593138723152" />
     <state x="711" y="353" key="SymfonyComponentCompositeDataDialog" timestamp="1593086222611">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -216,9 +216,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="616" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1593135631857" />
-    <state x="616" y="240" width="672" height="677" key="run.anything.popup" timestamp="1593086868699">
+    <state x="616" y="240" width="672" height="677" key="run.anything.popup" timestamp="1593138550614">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="616" y="240" width="672" height="677" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1593086868699" />
+    <state x="616" y="240" width="672" height="677" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1593138550614" />
   </component>
 </project>
