@@ -3,6 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="f14c9d52-337f-4a74-b5db-52c301a94b41" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_ide_helper.php" beforeDir="false" afterPath="$PROJECT_DIR$/_ide_helper.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/auth.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/auth.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/factories/UserFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/factories/UserFactory.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -132,12 +137,13 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php.zend.framework.tool" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RunAnythingCache">
     <option name="myCommands">
       <command value="artisan make:controller StaticPagesController" />
       <command value="artisan make:controller UsersController" />
+      <command value="artisan migrate" />
     </option>
   </component>
   <component name="RunManager">
@@ -145,6 +151,9 @@
       <TestRunner scope="XML" />
       <method v="2" />
     </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="showServicesTree" value="false" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -158,7 +167,8 @@
       <updated>1593083104039</updated>
       <workItem from="1593083106991" duration="3305000" />
       <workItem from="1593086781090" duration="7553000" />
-      <workItem from="1593135630719" duration="3427000" />
+      <workItem from="1593135630719" duration="4983000" />
+      <workItem from="1593143715934" duration="3626000" />
     </task>
     <servers />
   </component>
@@ -178,30 +188,30 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="797" y="404" key="FrameworkEditDialogDimensionKey/0.0.1920.1040@0.0.1920.1040" timestamp="1593086247690" />
-    <state width="1877" height="261" key="GridCell.Tab.0.bottom" timestamp="1593138584017">
+    <state width="1877" height="261" key="GridCell.Tab.0.bottom" timestamp="1593144759628">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="261" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1593138584017" />
-    <state width="1877" height="261" key="GridCell.Tab.0.center" timestamp="1593138584017">
+    <state width="1877" height="261" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1593144759628" />
+    <state width="1877" height="261" key="GridCell.Tab.0.center" timestamp="1593144759628">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="261" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1593138584017" />
-    <state width="1877" height="261" key="GridCell.Tab.0.left" timestamp="1593138584016">
+    <state width="1877" height="261" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1593144759628" />
+    <state width="1877" height="261" key="GridCell.Tab.0.left" timestamp="1593144759627">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="261" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1593138584016" />
-    <state width="1877" height="261" key="GridCell.Tab.0.right" timestamp="1593138584017">
+    <state width="1877" height="261" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1593144759627" />
+    <state width="1877" height="261" key="GridCell.Tab.0.right" timestamp="1593144759628">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="261" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1593138584017" />
+    <state width="1877" height="261" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1593144759628" />
     <state x="776" y="439" key="NewPhpFileDialog" timestamp="1593138608777">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="776" y="439" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1593138608777" />
-    <state x="461" y="162" key="SettingsEditor" timestamp="1593086258441">
+    <state x="461" y="162" key="SettingsEditor" timestamp="1593149180396">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1593086258441" />
+    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1593149180396" />
     <state width="498" height="446" key="SwitcherDM" timestamp="1593138723152">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -210,13 +220,21 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="711" y="353" key="SymfonyComponentCompositeDataDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1593086222611" />
-    <state x="616" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1593135631857">
+    <state x="616" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1593143717840">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="616" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1593135631857" />
-    <state x="616" y="240" width="672" height="677" key="run.anything.popup" timestamp="1593138550614">
+    <state x="616" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1593143717840" />
+    <state x="556" y="204" width="807" height="632" key="find.popup" timestamp="1593149410639">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="616" y="240" width="672" height="677" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1593138550614" />
+    <state x="556" y="204" width="807" height="632" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1593149410639" />
+    <state x="616" y="240" width="672" height="677" key="run.anything.popup" timestamp="1593148295914">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" width="672" height="677" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1593148295914" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1593148458456">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1593148458456" />
   </component>
 </project>
