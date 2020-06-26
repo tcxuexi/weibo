@@ -11076,14 +11076,6 @@ body h1 {
   margin-top: 10px;
 }
 
-a {
-  color: white;
-}
-
-a:hover {
-  color: blue;
-}
-
 body {
   font-size: 14px;
   font-weight: normal;

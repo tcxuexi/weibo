@@ -16,6 +16,7 @@ class UsersController extends Controller
                     'show',
                     'create',
                     'store',
+                    'index',
                 ],
             ]
         );
@@ -26,6 +27,14 @@ class UsersController extends Controller
                 'only' => ['create'],
             ]
         );
+    }
+
+    public function index()
+    {
+        // $users = User::all();
+        $users = User::paginate(10);
+
+        return view('users.index', compact('users'));
     }
 
     public function create()
