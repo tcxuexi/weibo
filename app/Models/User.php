@@ -85,7 +85,7 @@ class User extends Authenticatable
 
     public function isFollowing($user_id)
     {
-        return $this->followings()->contains($user_id);
+        return $this->followings->contains($user_id);
     }
 
     public function follow($user_ids)
@@ -99,6 +99,6 @@ class User extends Authenticatable
     {
         $user_ids = is_array($user_ids) ? $user_ids : [$user_ids];
 
-        $this->followers()->detach($user_ids);
+        $this->followings()->detach($user_ids);
     }
 }
